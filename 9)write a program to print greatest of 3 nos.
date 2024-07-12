@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter a:");
+    scanf("%d",&a);
+    printf("enter b:");
+    scanf("%d",&b);
+    printf("enter c:");
+    scanf("%d",&c);
+    int greatest = a;
+    if (b > greatest) {
+        greatest = b;
+    }
+    if (c > greatest) {
+        greatest = c;
+    }
+    printf("The greatest number is: %d\n", greatest);
+    return 0;
+}
